@@ -1,0 +1,169 @@
+.Profil3{
+width: 84%;
+margin-left: 5%;
+background-color: #E8E8E8;
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
+margin-top: 3%;
+position: relative;
+padding-left: 7%;
+padding-top: 1%;
+font-weight: 550;
+color: black;
+padding-bottom: 4%;
+border-radius: 10px;
+}
+.Pr2{
+    
+    border-radius: 30%;
+    height: 150px;
+    width: 150px;
+   
+    overflow: hidden;
+   position: absolute;
+    left: 6%;
+    top: 16%;
+}
+.img-R{
+    width: 100%;
+}
+.img-Pr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.A{
+    padding: 3%;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 68%;
+    
+}
+.DT1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 8%;
+
+}
+.B{
+    width: 40%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.c{
+    width: 40%;
+    margin-top: 10%;
+}
+.P2{
+    margin-left: 2%;
+
+}
+
+
+
+
+.Add{
+   
+    border-radius: 4%;
+    width: 100%;
+    margin-top: 2%;
+  
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2px;
+    margin-bottom: 1%;
+    
+}
+.Footer{
+  
+
+  margin-top: 10%;
+  margin-bottom: -2%;
+  width: 100%;
+  
+}
+
+.MDF{
+  padding: 12%;
+  border: none;
+  background-color: #3896d3;
+  font-family: cursive;
+  width: 122%;
+  color: white;
+  border-radius: 3px;
+}
+
+.UPD{
+  width: 100px;
+  top: 36px;
+  display: none;
+}
+
+.UPP{
+  position: absolute;
+  top: 5%;
+  right: 9%;
+}
+
+  @media(max-width: 400px){
+    .Pr2 {
+      border-radius: 30%;
+      height: 100px;
+      width: 100px;
+      overflow: hidden;
+      position: absolute;
+      left: 2%;
+      top: 2%;
+  }
+  .MDF{
+    padding: 10%;
+    border: none;
+    background-color: #3896d3;
+    font-family: cursive;
+    width: 90%;
+    font-size: 9px;
+    color: white;
+    border-radius: 3px;
+  }
+  .UPP{
+  
+    top: 1%;
+    right: -8%;
+  }
+  .DT1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 88%;
+    margin-left: 35%;
+    flex-direction: column;
+}
+.P2 {
+  margin-left: 5%;
+}
+.Profil3{
+  font-size: 19px;
+}
+.A{
+  width: 80%;
+}
+.B{
+  width: 93%;
+}
+.DD{
+  width: 65%;
+}
+
+}
+

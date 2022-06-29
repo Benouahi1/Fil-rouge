@@ -1,0 +1,74 @@
+.UPDATE{
+    width: 80%;
+    margin-left: 10%;
+    background-color: #e8e8e8;
+    position: relative;
+ margin-top: 2%;
+    p{
+        font-family: cursive;
+        font-size: 20px;
+    }
+}
+
+input{
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 3px;
+    height: 40px;
+    font-family: cursive;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+.num{
+    margin-left: -4%;
+}
+.Date{
+    margin-left: -8%;
+
+}
+.F{
+    width: 235px;
+    padding: 2px;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 3px;
+    font-family: cursive;
+    height: 40px;
+}
+.D{
+    width: 140%;
+}
+button{
+    width: 6%;
+    margin-left: 6%;
+    padding: 11px;
+    border-radius:8px;
+    font-size: 14px;
+    font-family: cursive;
+    border: none;
+    background: #3896d3;
+    color: white;
+    display: flex;
+    margin-left: 48%;
+
+    align-items: center;
+}
+.B{
+    padding-bottom: 2%;
+}
+
+
+.Photo{
+    margin-left: 48%;
+    width: 50%;
+}
+.img1{
+    width: 8%;
+    border-radius: 10px;
+}

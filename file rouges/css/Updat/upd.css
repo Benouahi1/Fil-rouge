@@ -1,0 +1,63 @@
+.AZ {
+  visibility: hidden;
+}
+
+.Footer {
+  margin-top: 10%;
+  padding-top: 1px;
+  width: 100%;
+}
+
+.Text {
+  width: 58%;
+  height: 82px;
+  text-align: center;
+  margin-left: 5%;
+  font-size: 22px;
+  font-family: cursive;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Update {
+  background-color: #e8e8e8;
+  margin-top: 2%;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 14px;
+}
+
+.img1 {
+  width: 3%;
+  margin-top: 1%;
+}
+
+.button {
+  background-color: #3896d3;
+  border: none;
+  color: white;
+  padding: 1%;
+  font-size: 90%;
+  width: 8%;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+.img2 {
+  width: 29%;
+  margin-left: 28%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+}
+
+h3 {
+  margin-left: 40%;
+  font-size: 35Px;
+  margin-top: 2%;
+  font-family: cursive;
+}
+/*# sourceMappingURL=upd.css.map */

@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.lg {
+  width: 15%;
+  margin-left: -30%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  position: absolute;
+  top: 1%;
+  right: 16%;
+}
+
+li {
+  margin-left: 20%;
+  padding: 4%;
+}
+
+.Menu {
+  display: none;
+}
+
+.Menu1 {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.ins1 {
+  background-color: #E84C3D;
+  border-radius: 5px;
+}
+
+.ins {
+  background-color: #E84C3D;
+  border-radius: 5px;
+  padding: 11%;
+}
+
+@media (max-width: 400px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 10%;
+    margin-left: 10%;
+  }
+  .lg {
+    width: 20%;
+    margin-left: 0%;
+  }
+  .nav_links {
+    margin-left: 0%;
+    text-align: center;
+    width: 51%;
+    margin-top: -70%;
+    margin-bottom: 10%;
+    margin-top: 0%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+  .Menu {
+    display: block;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+  }
+  .Menu1 {
+    top: 1%;
+    right: 1%;
+    margin-left: auto;
+    position: absolute;
+  }
+  .m {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    position: absolute;
+    width: 100%;
+    background: black;
+    z-index: 11;
+    height: 50%;
+    margin-top: 100%;
+    display: none;
+  }
+  li {
+    margin-left: 18%;
+    padding: 4%;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

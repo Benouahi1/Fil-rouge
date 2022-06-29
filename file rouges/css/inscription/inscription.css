@@ -1,0 +1,150 @@
+.CO {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 4%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.PR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.email {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 4%;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.AZ {
+  width: 30%;
+  height: 100px;
+  margin-bottom: 4%;
+  border-radius: 99px;
+  border: 2px solid black;
+  background-color: white;
+  visibility: hidden;
+}
+
+.img1 {
+  width: 5%;
+  border-radius: 99px;
+  position: absolute;
+  margin-left: 1;
+}
+
+.but-conix {
+  width: 50%;
+  height: 35px;
+  border: 1px solid white;
+  font-size: 20px;
+  font-family: Oswald, sans-serif;
+  border-radius: 5px;
+  color: white;
+  margin-top: 2%;
+  background-color: #E84C3D;
+}
+
+p {
+  font-size: 20px;
+  font-family: Oswald, sans-serif;
+  color: black;
+  margin-bottom: 2%;
+}
+
+.img {
+  width: 125%;
+  margin-left: -10%;
+  margin-top: 23%;
+}
+
+.p {
+  font-size: 20px;
+  font-family: Oswald, sans-serif;
+  color: black;
+  margin-bottom: 2%;
+}
+
+.CO {
+  width: 100%;
+}
+
+.T {
+  margin-left: 10%;
+}
+
+.MP {
+  font-family: Oswald, sans-serif;
+  color: #550f0f;
+  background-color: rgba(255, 0, 0, 0.5);
+  text-align: center;
+  height: 30px;
+  border-radius: 4px;
+  padding-top: 8px;
+  font-size: 100%;
+  font-weight: 100;
+}
+
+@media (max-width: 400px) {
+  .img {
+    display: none;
+  }
+  .img1 {
+    width: 30%;
+  }
+}
+
+h3 {
+  position: absolute;
+  font-size: 71px;
+  left: 27%;
+  top: 12%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.img-L {
+  width: 10%;
+  position: absolute;
+  left: 41%;
+}
+
+.DK {
+  margin-top: 4%;
+}
+
+@media (max-width: 400px) {
+  h3 {
+    font-size: 47px;
+    left: 19%;
+  }
+  .img-L {
+    width: 57%;
+    left: 42%;
+    top: 21%;
+  }
+  .DK {
+    margin-top: 28%;
+  }
+}
+
+.Footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+/*# sourceMappingURL=inscription.css.map */

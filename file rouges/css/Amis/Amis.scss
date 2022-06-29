@@ -1,0 +1,189 @@
+
+.gree{
+    
+    width: 70%;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: #e8e8e8;
+    
+    border-radius: 15px;
+}
+
+.images{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+
+}
+.profil{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Nome{
+    width: 180px;
+    position: absolute;
+    left: 98px;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.img1{
+    width: 100%;
+
+}
+.Activ{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 300;
+}
+.list{
+  
+  border-radius: 15px;
+    margin-top: 10%;
+    padding-top: 13%;
+    padding-bottom: 1%;
+}
+.amis{
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.N{
+    margin-left: 1%;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.C{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+p{
+    font-family: cursive;
+}
+
+.enligne{
+    width: 12px;
+    border: 1px solid #3dff3d;
+    height: 12px;
+    border-radius: 30px;
+    position: absolute;
+    right: 89px;
+    background-color: #3dff3d;
+}
+.enligne1{
+    width: 12px;
+    border: 1px solid #3dff3d;
+    height: 12px;
+    border-radius: 30px;
+    position: absolute;
+    left: 68px;
+    top: 72%;
+
+    background-color: #3dff3d;
+}
+
+.offligne{ 
+    width: 12px;
+    border: 1px solid gray;
+    height: 12px;
+    border-radius: 30px;
+    position: absolute;
+    right: 89px;
+    background-color: gray;
+
+}
+
+.p-m{
+    position: absolute;
+    right: 20%;
+    width: 4%;
+    margin-top: -2%;
+}
+
+.Footer{
+    margin-top: 5%;
+    margin-bottom: -2%;
+    width: 100%;
+}
+
+h3{
+	
+	position: absolute;
+    font-size: 71px;
+    left: 35%;
+   
+    top: 12%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.img-L{
+	width: 9%;
+    position: absolute;
+    left: 49%;
+}
+
+@media(max-width: 400px){
+h3{
+	font-size: 47px;
+    left: 7%;
+    top: 13%;
+}
+.Nome{
+    width: 131px;
+    left: 80px;
+}
+
+.img-L{
+	width: 41%;
+    left: 58%;
+    top: 8%;
+}
+	
+.offligne{ 
+    width: 4%;
+   right: 28px;
+
+}
+.enligne{
+    width: 4%;
+    right: 28px;
+}
+.images{
+    width: 63px;
+    height: 63px;
+}
+.N{
+    font-size: 16px;
+}
+.gree{
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 39%
+}
+.list{
+    padding-top: 40%;
+    margin-bottom: 70%;
+
+}
+.p-m{
+    width: 9%;
+    margin-top: -4%;
+}
+
+}
